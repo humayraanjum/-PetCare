@@ -160,6 +160,7 @@ h3{
     line-height: 1.5;
     text-align: center;
     padding-bottom: 50px;
+    padding-left: 50px;
 
 }
 
@@ -186,7 +187,7 @@ h3{
 }
 
 .card{
-   padding:10px 0px;
+  
    margin-left: 50px;
    margin-right: 50px;
    margin-bottom: 20px;
@@ -258,6 +259,32 @@ h3{
     padding-bottom: 15px;
     color:#fff;
 }
+
+
+
+@media (max-width:1020px) 
+ {
+   #title{
+       text-align:center;
+   }
+
+    .title-img{
+       position: static;
+       width: 50%;
+       padding-top:30px;
+       
+   }    
+   #mission{
+       text-align: center;
+   } 
+   #pricing{
+       text-align: center;
+   }
+   #testimonial{
+       text-align: center;
+       margin: 10px 0px;
+   }
+ }
 
 
 
