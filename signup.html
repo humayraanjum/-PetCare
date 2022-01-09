@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐶PetCare</title>
+
+     <!-- font style   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">  
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+  
+   <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/aa1d4a9b8a.js" crossorigin="anonymous"></script>
+  
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+    <!-- navbar -->
+    <section id="title">
+        <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light "> 
+              <a class="navbar-brand" href="#"><i class="fas fa-paw pet"></i>PetCare</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-current="page" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Mission</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Feedback</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Contact</a>
+                  </li>
+                </ul>
+                
+              </div>
+            
+          </nav>
+        </div>
+          
+         <div class="form">
+         <div class="row">
+             <div class="col-lg-6 col-md-12">
+                <div class="puppy">
+                    <img src="images/signup.jpg" alt="puppy-img">
+                 </div>
+             </div>
+             <div class="col-lg-6 col-md-12">
+                <form class="row g-3" action="mailto:humayraanjum87@gmail.com"
+
+                method="POST" >
+                    <div class="col-md-4">
+                      <label for="validationDefault01" class="form-label">Your Name</label>
+                      <input type="text" class="form-control" id="validationDefault01" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationDefault02" class="form-label">Your Pet Name</label>
+                      <input type="text" class="form-control" id="validationDefault02" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationDefaultUsername" class="form-label">Email</label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="validationDefault03" class="form-label">You Looking For</label>
+                        <select class="form-select" id="validationDefault04" required>
+                          <option >Pet Sitting</option>
+                          <option>Pet Walking</option>
+                          <option>Pet Spa</option>
+                          <option>Pet Health Check-up</option>
+                          
+                        </select>
+                      </div>
+                      
+
+                    <div class="col-md-3">
+                        <label for="validationDefault04" class="form-label">Pakage</label>
+                        <select class="form-select" id="validationDefault04" required>
+                          <option >Silver</option>
+                          <option >Gold</option>
+                          <option >Platinum</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+
+                    
+                    
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input-dark" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                     <a href="mailto:humayraanjum87@gmail.com"><button class="btn btn-lg btn-dark" type="submit">Submit</button></a>
+                    </div>
+                  </form>
+            </div>
+         </div>
+         </div>
+
+
+         
+        
+
+        </section>
+
+        <!-- promotion -->
+
+        <section id="promotion">
+            <h2>Get the best care that your pet deserve.</h2>
+            <button type="button" class="btn btn-lg btn-dark"><i class="fab fa-apple"></i>Download</button>
+            <button type="button" class="btn btn-lg btn-outline-dark"><i class="fab fa-google-play"></i>Download</button>
+        </section>
+
+
+         <!-- footer -->
+
+    <section id="footer">
+      
+        <i class="fab fa-twitter dis"></i>
+        <i class="fab fa-facebook-f dis"></i>
+        <i class="fab fa-instagram dis"></i>
+        <i class="fas fa-envelope dis"></i>
+    
+        <p>© Copyright 2018 PetCare</p>
+    
+      </footer>
+    
+        </section>
+
+    
+</body>
+</html>

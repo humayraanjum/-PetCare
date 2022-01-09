@@ -1,0 +1,267 @@
+body{
+    position: relative;
+    
+    
+}
+
+#title{
+    background-color: #fff;
+    padding: 60px 3px 130px 70px;
+
+    background-image:
+    linear-gradient(to bottom, rgba(231, 229, 236, 0.89), rgba(201, 181, 238, 0.623)),
+    url('images/purple-back-title.jpg');
+    
+    
+}
+
+
+
+.pet{
+    color:#B983FF;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    color:#B983FF;
+    line-height:1.5;
+    font-size: 4rem;
+}
+
+/* navbar */
+.navbar{
+   
+    color: #000;
+    padding-bottom: 60px;
+   
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0px 0px 0px 80px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:#B983FF;
+    font-weight: bold;
+}
+.title-img{
+    width: 50%;
+    padding-top: 10px;
+}
+
+/* title-button */
+.btn{
+    margin:5px 3px 0px 5px;
+}
+/* signup */
+.puppy img{
+    border-radius: 10%;
+    width:100%;
+    padding-bottom: 80px;
+}
+
+.form{
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.2rem;
+    font-weight:bold ;
+    color:#3a3636de;
+    padding-right:20px;
+    
+
+}
+
+
+/* promotion */
+#promotion{
+    text-align: center;
+    padding:100px 15px 100px 15px;
+    
+}
+
+#promotion h2{
+    font-family: 'Lobster', cursive;
+    color:#B983FF;
+    line-height:1.5;
+    font-size: 4rem;
+
+}
+
+/* features */
+
+#features{
+    background-color: #B983FF;
+    color: #fff;
+  
+   padding-top:80px;
+   
+    text-align: center;
+    line-height:1.5;
+    padding-bottom: 15px;
+
+
+}
+
+.pic{
+    padding-bottom: 15px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#features p{
+    padding-bottom: 80px;
+
+}
+
+.pic:hover{
+    transform: scale(30%);
+    color:#000;
+}
+
+ p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* mission-slide */
+
+#mission{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+
+#mission p{
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 2;
+    color: #000;
+    font-weight: bold;
+    padding-top: 30px;
+    
+}
+
+#mission h2{
+    font-family: 'Lobster', cursive;
+    color:#B983FF;
+    font-size: 3.5rem;
+}
+
+#pricing{
+    background-color: #CAB8FF;
+    padding-top: 100px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+#pricing h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#B983FF;
+    font-weight: bold;
+
+
+     
+}
+
+#pricing h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+#pricing p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #000;
+    font-weight: bold;
+}
+
+.card{
+   padding:10px 0px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 20px;
+  
+   
+}
+#pricing h2{
+    font-family: 'Lobster', cursive;
+    color:#fff;
+    font-size: 3.5rem;
+ 
+}
+
+/* testimonial */
+#testimonial{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  
+    color: #000;
+   
+    background-color: #E4FBFF;
+
+    padding-top: 80px;
+    padding-bottom: 50px;
+    
+}
+
+#testimonial .btn{
+    padding-top: 10px;
+}
+
+.tes-img{
+    border-radius: 100%;
+    width:80px;
+    height:80px;
+    margin:2%;
+}
+
+#testiimonial h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#3a3636de;
+    font-weight: bold;
+}
+
+#testimonial h2{
+    color:#B983FF;
+    font-weight: bold;
+}
+
+
+
+
+    
+
+    /* footer */
+ #footer{
+    text-align: center;
+    height:200px;
+    padding-top: 70px;
+    
+    background-image:
+    linear-gradient(to bottom, rgba(147, 130, 189, 0.671), rgba(165, 104, 194, 0.623)),
+    url('images/purple-back-title.jpg');
+    
+}
+
+.dis{
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color:#fff;
+}
+
+
+
+
+
+
+
