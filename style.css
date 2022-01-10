@@ -2,6 +2,7 @@ body{
     position: relative;
     
     
+    
 }
 
 #title{
@@ -33,6 +34,7 @@ h1{
    
     color: #000;
     padding-bottom: 60px;
+    position: relative;
    
 }
 .navbar-brand{
@@ -67,15 +69,22 @@ h1{
 }
 
 .form{
-    padding-top: 80px;
+    padding-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size:1.2rem;
     font-weight:bold ;
     color:#3a3636de;
     padding-right:20px;
+    padding-left: 20px;
     
 
 }
+
+.heading{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
 
 
 /* promotion */
@@ -134,9 +143,8 @@ h3{
 /* mission-slide */
 
 #mission{
-    margin-top: 100px;
-    padding-left: 20px;
-    padding-bottom: 100px;
+    
+    padding:100px 50px 100px 50px;
 }
 
 #mission p{
@@ -210,8 +218,8 @@ h3{
    
     background-color: #E4FBFF;
 
-    padding-top: 80px;
-    padding-bottom: 50px;
+    
+    padding:80px 30px 50px 30px;
     
 }
 
@@ -262,28 +270,20 @@ h3{
 
 
 
-@media (max-width:1020px) 
+
+@media (max-width:1000px) 
  {
    #title{
        text-align:center;
    }
 
     .title-img{
-       position: static;
+       position: relative;
        width: 50%;
        padding-top:30px;
        
    }    
-   #mission{
-       text-align: center;
-   } 
-   #pricing{
-       text-align: center;
-   }
-   #testimonial{
-       text-align: center;
-       margin: 10px 0px;
-   }
+   
  }
 
 
